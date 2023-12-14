@@ -1,0 +1,15 @@
+/* General Styles */
+body {
+    /*Text*/
+    font-family: sans-serif, Arial, 'Abril Fatface'; /* Use your font of choice */
+    color: white;
+    /*General*/
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: black;
+    text-align: center; /* Center all text elements */
+    user-select: none;
+  }
+  
