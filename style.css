@@ -11,12 +11,12 @@ body {
     background-color: black;
     text-align: center; /* Center all text elements */
     user-select: none;
-  }
-  h1 {
+}
+h1 {
     font-weight: bolder;
     font-size: 56px;
-  }
+}
 /* Layout */
 .grid-container {
     display: grid;
-  }
+}
