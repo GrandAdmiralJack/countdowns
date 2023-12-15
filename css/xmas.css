@@ -28,7 +28,7 @@
     height: 100%;
     margin-left: 0px;
     margin-right: 0px;
-    background: url('img.gif');
+    background: url('/img/xmas.gif');
     background-size: cover;
     text-align: center; /* Center all text elements */
     user-select: none;
