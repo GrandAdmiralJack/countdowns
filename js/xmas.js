@@ -33,7 +33,7 @@
 
         //do something later when date is reached
         if (distance < 0) {
-          document.getElementById("headline").innerText = "Marry Christmas!";
+          document.getElementById("headline").innerText = "Merry Christmas!";
           document.getElementById("countdown").style.display = "none";
           document.getElementById("content").style.display = "block";
           clearInterval(x);
