@@ -19,7 +19,7 @@
   }
   
   /* General Styles */
-#backdrop {
+body {
     /*Text*/
     font-family: sans-serif, Arial, 'Abril Fatface'; /* Use your font of choice */
     color: white;
