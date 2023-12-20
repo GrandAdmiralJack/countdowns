@@ -52,6 +52,10 @@ body, #backdrop {
     font-size: 150px; /* Adjust font size as needed */
     margin-bottom: 0px; /* Add some margin for spacing */
   }
+
+  .fullscreenbtn:fullscreen {
+    display:none;
+  }
   
 /** Timer **/
 /* general styling */
