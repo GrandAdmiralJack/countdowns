@@ -53,7 +53,7 @@ body, #backdrop {
     margin-bottom: 0px; /* Add some margin for spacing */
   }
 
-  .fullscreenbtn:fullscreen {
+#fullscreen:fullscreen {
     display:none;
   }
   
