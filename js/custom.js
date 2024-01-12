@@ -1,4 +1,5 @@
 var countdownEvent = prompt("What is the countdown for? ", "My Birthday");       // Global scope
+document.getElementById(welcome).innerHTML = countdownEvent
 (function () {
     const second = 1000,
           minute = second * 60,
