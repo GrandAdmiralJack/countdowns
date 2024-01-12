@@ -1,3 +1,4 @@
+var countdownEvent = prompt("What is the countdown for? ", "My Birthday");       // Global scope
 (function () {
     const second = 1000,
           minute = second * 60,
@@ -12,15 +13,15 @@
         yyyy = today.getFullYear(),
         nextYear = yyyy + 1,
         dayMonth = prompt("Please enter the date the countdown should count down to:", "01/01/"),
-        birthday = dayMonth + yyyy;
+        event = dayMonth + yyyy;
     
     today = mm + "/" + dd + "/" + yyyy;
-    if (today > birthday) {
-      birthday = dayMonth + nextYear;
+    if (today > event) {
+      event = dayMonth + nextYear;
     }
     //end
     
-    const countDown = new Date(birthday).getTime(),
+    const countDown = new Date(event).getTime(),
         x = setInterval(function() {    
   
           const now = new Date().getTime(),
