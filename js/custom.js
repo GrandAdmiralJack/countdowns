@@ -1,6 +1,6 @@
 const countdownEvent = prompt("What is the countdown for? ", "My Birthday");    // Global scope
 const countdownDate = prompt("Please enter the date the countdown should count down to:", "01/01/");
-document.getElementById(welcome).innerHTML = countdownEvent
+document.getElementById(welcome).innerText = countdownEvent;
 (function () {
     const second = 1000,
           minute = second * 60,
@@ -19,8 +19,8 @@ document.getElementById(welcome).innerHTML = countdownEvent
     
     today = mm + "/" + dd + "/" + yyyy;
     if (today > event) {
-      event = dayMonth + nextYear;
-    }
+    }      event = dayMonth + nextYear;
+
     //end
     
     const countDown = new Date(event).getTime(),
