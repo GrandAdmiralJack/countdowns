@@ -1,4 +1,5 @@
-var countdownEvent = prompt("What is the countdown for? ", "My Birthday");       // Global scope
+const countdownEvent = prompt("What is the countdown for? ", "My Birthday");    // Global scope
+const countdownDate = prompt("Please enter the date the countdown should count down to:", "01/01/");
 document.getElementById(welcome).innerHTML = countdownEvent
 (function () {
     const second = 1000,
@@ -13,7 +14,7 @@ document.getElementById(welcome).innerHTML = countdownEvent
         mm = String(today.getMonth() + 1).padStart(2, "0"),
         yyyy = today.getFullYear(),
         nextYear = yyyy + 1,
-        dayMonth = prompt("Please enter the date the countdown should count down to:", "01/01/"),
+        dayMonth = countdownDate,
         event = dayMonth + yyyy;
     
     today = mm + "/" + dd + "/" + yyyy;
@@ -35,7 +36,7 @@ document.getElementById(welcome).innerHTML = countdownEvent
   
           //do something later when date is reached
           if (distance < 0) {
-            document.getElementById("headline").innerText = "It's "+countdownEvent+"!";
+            document.getElementById("headline").innerText = "It's " + countdownEvent + "!";
             document.getElementById("countdown").style.display = "none";
             document.getElementById("content").style.display = "block";
             clearInterval(x);
