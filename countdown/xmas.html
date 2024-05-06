@@ -11,7 +11,8 @@
 <meta property="og:title" content="Christmas Countdown! " />
 
 </head> 
-<body>
+<body id="body">
+<div id="backdrop">
 <div id="overlay">
 <h1 id="welcome"><strong>
 Christmas Countdown! 
@@ -27,6 +28,11 @@ Christmas Countdown!
   </div>
 
 <a href="../index.html"><button class="applebutton"><span>Home</span></button></a>
+<button id="fullscreen" class="applebutton" onclick="var el = document.getElementById('body'); el.requestFullscreen();"><span>
+  Go Full Screen!
+  </span></button>
+</div>
+</div>
 </div>
 </body>
 </html>
